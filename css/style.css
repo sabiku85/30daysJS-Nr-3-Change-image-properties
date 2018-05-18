@@ -1,0 +1,50 @@
+:root {
+  --base: #eadbc8;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+} 
+
+.highlight {
+  color: var(--base);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4F271D;
+  color: #eadbc8;
+  font: 1.5rem verdana, sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 150px;
+  max-width: 1400px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  padding-bottom: 50px;
+}
+
+h2 {
+  padding-bottom: 50px;
+}
+
